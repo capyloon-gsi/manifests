@@ -26,7 +26,7 @@
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/frameworks/libs/net" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
+<!--   <remove-project name="platform/frameworks/opt/net/ims" /> -->
   
   
   <project path="build/make" name="platform_build" remote="td-gsi" revision="gonk_android-13.0.0_r6-gsi">
@@ -55,7 +55,7 @@
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="td" revision="android-13.0.0_r8-td" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="td" revision="android-13.0.0_r8-td" />
   <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="td" revision="android-13.0.0_r8-td" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="td" revision="android-13.0.0_r8-td" />
+<!--   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="td" revision="android-13.0.0_r8-td" /> -->
 
   <!-- GSI vendor -->
   
