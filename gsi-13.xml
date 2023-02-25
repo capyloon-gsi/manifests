@@ -8,7 +8,7 @@
   
     <!-- replace GSI -->
   
-  <remove-project name="platformplatform_build" />
+  <remove-project name="platform_build" />
   <remove-project name="platform_system_core" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/_system_vold" />
