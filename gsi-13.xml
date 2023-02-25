@@ -35,11 +35,13 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-</project>
+  </project>
+  <project path="system/core" name="platform_system_core" remote="td" revision="android-13.0.0_r24-td" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="td" revision="android-13.0.0_r24-td" />
+  <project path="system/vold" name="platform_system_vold" remote="td" revision="android-13.0.0_r24-td" />
   
-      <project path="system/core" name="platform_system_core" remote="td" revision="android-13.0.0_r24-td" />
-<project path="frameworks/native" name="platform_frameworks_native" remote="td" revision="android-13.0.0_r24-td" />
-<project path="system/vold" name="platform_system_vold" remote="td" revision="android-13.0.0_r24-td" />
+  
+  
 <project path="external/selinux" name="platform_external_selinux" remote="td" revision="android-13.0.0_r24-td" />
 <project path="bootable/recovery" name="platform_bootable_recovery" remote="td" revision="android-13.0.0_r24-td" />
 <project path="frameworks/av" name="platform_frameworks_av" remote="td" revision="android-13.0.0_r24-td" />
