@@ -40,21 +40,21 @@
   <project path="system/vold" name="platform_system_vold" remote="td-gsi" revision="gonk_android-13.0.0_r6-gsi" />
   
   
-  <project path="frameworks/native" name="platform_frameworks_native" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="external/selinux" name="platform_external_selinux" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="system/extras" name="platform_system_extras" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="system/netd" name="platform_system_netd" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="system/nfc" name="platform_system_nfc" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="system/bpf" name="platform_system_bpf" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="bionic" name="platform_bionic" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="td" revision="android-13.0.0_r24-td" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="td" revision="android-13.0.0_r24-td" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="external/selinux" name="platform_external_selinux" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="system/extras" name="platform_system_extras" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="system/netd" name="platform_system_netd" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="system/nfc" name="platform_system_nfc" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="system/bpf" name="platform_system_bpf" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="bionic" name="platform_bionic" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="td" revision="android-13.0.0_r8-td" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="td" revision="android-13.0.0_r8-td" />
 
   <!-- Change for GSI -->
   
