@@ -8,10 +8,10 @@
   
     <!-- replace GSI -->
   
-  <remove-project name="platform/build" />
-  <remove-project name="platform/system/core" />
+  <remove-project name="platformplatform_build" />
+  <remove-project name="platform_system_core" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/_system_vold" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/av" />
