@@ -2,6 +2,7 @@
 <manifest>
   
   <remote name="td-gsi" fetch="https://github.com/capyloon-gsi/" />
+  <remote name="td" fetch="https://github.com/TrebleDroid" />
 
   <include name="b2g.xml"/>
   <include name="base-13.xml"/>
