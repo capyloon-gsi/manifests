@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://android.googlesource.com" name="aosp"/>
+<!--   <remote fetch="https://android.googlesource.com" name="aosp"/> -->
+   <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp"/>
   <default revision="refs/tags/android-13.0.0_r6" remote="aosp" sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r6" />
