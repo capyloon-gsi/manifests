@@ -16,7 +16,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
+<!--   <remove-project name="platform/frameworks/base" /> -->
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/system/netd" />
@@ -51,7 +51,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="td" revision="android-13.0.0_r8-td" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="td" revision="android-13.0.0_r8-td" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="td" revision="android-13.0.0_r8-td" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="td" revision="android-13.0.0_r8-td" />
+<!--   <project path="frameworks/base" name="platform_frameworks_base" remote="td" revision="android-13.0.0_r8-td" /> -->
   <project path="system/extras" name="platform_system_extras" remote="td" revision="android-13.0.0_r8-td" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="td" revision="android-13.0.0_r8-td" />
   <project path="system/netd" name="platform_system_netd" remote="td" revision="android-13.0.0_r8-td" />
