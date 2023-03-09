@@ -39,7 +39,7 @@
   <project groups="capyloon" name="gonk-binder" path="gonk-misc/gonk-binder" remote="capyloon" revision="aosp-13"/>
 
   <!-- TODO: fork back capyloon org  -->
-  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
 
 </manifest>

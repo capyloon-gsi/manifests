@@ -13,9 +13,9 @@
     <!-- phh's patches based on "android-13.0.0_r24" branch of AOSP's repos -->
 
     <remove-project name="platform_build" />
-    <remove-project name="platform_build_soong" />
     <remove-project name="platform_system_core" />
     <remove-project name="platform_system_vold" />
+
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/external/selinux" />
     <remove-project name="platform/bootable/recovery" />
@@ -39,10 +39,6 @@
       <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
       <linkfile src="target" dest="build/target"/>
       <linkfile src="tools" dest="build/tools"/>
-    </project>
-    <project groups="gsi,capyloon" name="platform_build_soong" path="build/soong" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi" >
-      <linkfile src="root.bp" dest="Android.bp"/>
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
     <project groups="gsi,capyloon" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_core" path="system/core" />
     <project groups="gsi,capyloon" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_vold" path="system/vold" />
