@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- TODO -->
-  <remote fetch="https://android.googlesource.com" name="aosp"/>
-<!--   <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp"/> -->
+<!--   <remote fetch="https://android.googlesource.com" name="aosp"/> -->
+  <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp"/>
   <default revision="refs/tags/android-13.0.0_r24" remote="aosp" sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp"/>
@@ -61,7 +61,7 @@
   <project path="external/angle" name="platform/external/angle" groups="pdk" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" />
-  <project path="external/pandora" name="platform/external/pandora" groups="pdk" />
+  <project path="external/pandora/avatar" name="platform/external/pandora/avatar" groups="pdk" />
   <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" />
   <project path="external/apache-commons-compress" name="platform/external/apache-commons-compress" groups="pdk" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk" />
