@@ -7,9 +7,11 @@
   <!-- Change in AOSP projects -->
 
   <!-- nothing change ? -->
-  <!-- <project name="platform_art" path="art" remote="td-gsi" revision="gonk_android-13.0.0_r24"/> -->
+  <!-- <project name="platform_art" path="art" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24"/> -->
+  <!--  todo : need patch  -->
+  <project name="platform/art" path="art"/>
 
-  <project name="platform_build" path="build/make" remote="td-gsi" revision="gonk_android-13.0.0_r24">
+  <project name="platform_build" path="build/make" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -18,12 +20,12 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="td-gsi" revision="gonk_android-13.0.0_r24">
+  <project name="platform_build_soong" path="build/soong" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_system_core" path="system/core" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_vold" path="system/vold" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_core" path="system/core" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_vold" path="system/vold" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24"/>
 
 
   <!-- add Capyloon and B2G repos -->
@@ -39,7 +41,7 @@
   <project groups="capyloon" name="gonk-binder" path="gonk-misc/gonk-binder" remote="capyloon" revision="aosp-13"/>
 
   <!-- TODO: fork back capyloon org  -->
-  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="td-gsi" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24"/>
 
 </manifest>

@@ -6,7 +6,6 @@
 
 
     <!-- TODO: fork repos to capyloon -->
-    <remote name="td-gsi" fetch="https://github.com/capyloon-gsi/" />
     <remote name="td" fetch="https://github.com/TrebleDroid/" />
 
 
@@ -31,7 +30,7 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/frameworks/libs/net" />
 
-    <project groups="gsi,capyloon"  name="platform_build" path="build/make" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi">
+    <project groups="gsi,capyloon"  name="platform_build" path="build/make" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24-gsi">
       <copyfile src="core/root.mk" dest="Makefile"/>
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
       <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -40,8 +39,8 @@
       <linkfile src="target" dest="build/target"/>
       <linkfile src="tools" dest="build/tools"/>
     </project>
-    <project groups="gsi,capyloon" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_core" path="system/core" />
-    <project groups="gsi,capyloon" remote="td-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_vold" path="system/vold" />
+    <project groups="gsi,capyloon" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_core" path="system/core" />
+    <project groups="gsi,capyloon" remote="capyloon-gsi" revision="gonk_android-13.0.0_r24-gsi" name="platform_system_vold" path="system/vold" />
 
 
     <!-- TODO: fork repos to capyloon revison android-13.0.0_r24-gsi -->
@@ -62,9 +61,9 @@
 
 
   <!-- add essential phh's GSI repos -->
-  <project groups="gsi"  remote="td-gsi" path="device/phh/treble" name="device_phh_treble"   revision="b2g-gsi-13" />
-  <project groups="gsi" remote="td-gsi" name="vendor_interfaces" path="vendor/interfaces"   revision="android-11.0" />
-  <project groups="gsi" remote="td-gsi" name="vendor_lptools" path="vendor/lptools"  revision="master" />
+  <project groups="gsi"  remote="capyloon-gsi" path="device/phh/treble" name="device_phh_treble"   revision="b2g-gsi-13" />
+  <project groups="gsi" remote="capyloon-gsi" name="vendor_interfaces" path="vendor/interfaces"   revision="android-11.0" />
+  <project groups="gsi" remote="capyloon-gsi" name="vendor_lptools" path="vendor/lptools"  revision="master" />
 
 
 
