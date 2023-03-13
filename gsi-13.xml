@@ -44,7 +44,7 @@
 
 
     <!-- TODO: fork repos to capyloon revison android-13.0.0_r24-gsi -->
-    <project groups="gsi"  remote="td" revision="android-13.0.0_r24-td" name="platform_frameworks_native" path="frameworks/native" />
+    <project groups="gsi"  remote="capyloon-gsi" revision="android-13.0.0_r24-td" name="platform_frameworks_native" path="frameworks/native" />
     <project groups="gsi"  remote="td" revision="android-13.0.0_r24-td" name="platform_external_selinux" path="external/selinux" />
     <project groups="gsi"  remote="td" revision="android-13.0.0_r24-td" name="platform_bootable_recovery" path="bootable/recovery" />
     <project groups="gsi"  remote="td" revision="android-13.0.0_r24-td" name="platform_frameworks_av" path="frameworks/av" />
